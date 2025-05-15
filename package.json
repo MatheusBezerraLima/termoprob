@@ -1,18 +1,17 @@
 {
-  "name": "termoprob",
+  "name": "termo-websocket",
   "version": "1.0.0",
-  "description": "Um sistema inteligente que analisa as tentativas do jogo Termo e calcula a probabilidade de cada letra estar correta em sua posição. Utiliza Node.js com WebSocket para comunicação em tempo real entre a tela de inserção e a tela de análise estatística.",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start:dev": "node src/server.js",
-    "start:watch": "node --watch src/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "websocket": "^1.0.35"
+    "socket.io": "^4.8.1"
   }
 }
